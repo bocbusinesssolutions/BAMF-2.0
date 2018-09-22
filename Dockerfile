@@ -3,17 +3,23 @@
 # BAMF Release 02-0000
 #
 
-#Pull base image
+# Pull base image
 FROM node
 
+# Set ENV variables
+ENV PATH="/usr/bin:${PATH}"
+
+# Install node packages
+#RUN \
+
 # Define mountable directories.
-VOLUME ["/usr/local/BAMFContainer2/bocbs-01-0026"]
+VOLUME ["/usr/local/BAMF-2.0", "/usr/bin"]
 
 # Define working directory.
-WORKDIR bocbs-01-0026
+#WORKDIR /usr/local/BAMF-2.0/BAMF/bocbs-01-0026
 
 # Start BAMF
-RUN ["node index.js"]
+CMD ["node -v"]
 
-EXPOSE 80
-EXPOSE 443
+#EXPOSE 80
+#EXPOSE 443
