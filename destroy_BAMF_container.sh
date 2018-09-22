@@ -1,1 +1,1 @@
-docker rm bocbs-02-0001 --force
+docker rm BAMF-bocbs-02-0001 --force
