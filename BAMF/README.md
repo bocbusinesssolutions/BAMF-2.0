@@ -1,6 +1,6 @@
-# Repo for BAMF code packages
+# Repository for BAMF code packages
 
-Download BAMF 2.0 code repository from git:
+Copy BAMF 2.0 code repository from git:
 ```
 $ git clone https://github.com/bocbusinesssolutions/BAMF-2.0.git
 ```
@@ -19,7 +19,13 @@ $ docker run --name <bamfx.yyyy> -d -p <external port>:<internal port> <bocbs-xx
 
 ![BAMF](bamf-home.PNG)
 
-Freelance Developers who are creating images can use the following command to review configuration of an image:
+# Information for Freelance Developers
+
+Freelance developers creating custom images for BAMF should create a local Dockerfile in the following format:
 ```
-$ docker run -it <bocbs-xx-yyyy> sh
+FROM docker pull bocbusinesssolutions/bamf2.0
+MAINTAINER BOC Business Solutinos LLC <contact@bocbs.com>
+
+<Add custom Dockerfile content here>
+
 ```
