@@ -10,3 +10,5 @@ Run the container with the following naming convention (where x=release; y=build
 ```
 $ docker run --name <bamfx.yyyy> -d -p <external port>:<internal port> <bocbs-xx-yyyy>
 ```
+
+![BAMF](bamf-home.png)
