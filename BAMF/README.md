@@ -18,3 +18,8 @@ $ docker run --name <bamfx.yyyy> -d -p <external port>:<internal port> <bocbs-xx
 ```
 
 ![BAMF](bamf-home.PNG)
+
+Freelance Developers who are creating images can use the following command to review configuration of an image:
+```
+$ docker run -it <bocbs-xx-yyyy> sh
+```
