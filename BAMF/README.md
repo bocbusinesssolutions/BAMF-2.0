@@ -29,3 +29,4 @@ MAINTAINER BOC Business Solutinos LLC <contact@bocbs.com>
 <Add custom Dockerfile content here>
 
 ```
+When completed. Send for review to admin@bocbs.com 
