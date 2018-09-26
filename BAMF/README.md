@@ -24,9 +24,9 @@ $ docker run --name <bamfx.yyyy> -d -p <external port>:<internal port> <bocbs-xx
 Freelance developers creating custom images for BAMF should create a local Dockerfile in the following format:
 ```
 FROM docker pull bocbusinesssolutions/bamf2.0
-MAINTAINER BOC Business Solutinos LLC <contact@bocbs.com>
+MAINTAINER BOC Business Solutinos LLC <bamf@bocbs.com>
 
 <Add custom Dockerfile content here>
 
 ```
-When completed. Send for review to admin@bocbs.com 
+When completed. Send for review to bamf@bocbs.com 
