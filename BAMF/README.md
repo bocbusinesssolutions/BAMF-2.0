@@ -8,9 +8,9 @@ Navigate to BAMF root directory
 ```
 $ cd /usr/local/BAMF-2.0/BAMF
 ```
-Build the base image
+Unzip the latest code package
 ```
-$ sh build-bocbs-02-0000.sh
+$ unzip bocbs-<xx>-<yyyy>.zip
 ```
 
 ![BAMF](bamf-home.PNG)
