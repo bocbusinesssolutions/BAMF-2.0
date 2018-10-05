@@ -7,4 +7,4 @@ $ docker run --name https-reverse-proxy -d -p 443:443 bocbusinesssolutions/bamf2
 $ docker run --name http-website -d bocbusinesssolutions/bamf2.0:http-website
 ```
 
-[BAMF is owned, developed and managed by BOC Business Solutions LLC](www.bocbs.com) 
+###### BAMF is owned, developed and managed by [BOC Business Solutions LLC](www.bocbs.com) 
