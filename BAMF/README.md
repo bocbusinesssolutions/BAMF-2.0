@@ -4,17 +4,13 @@ Copy BAMF 2.0 code repository from git:
 ```
 $ git clone https://github.com/bocbusinesssolutions/BAMF-2.0.git
 ```
-Unzip package containing Dockerfile and image content
+Navigate to BAMF root directory
 ```
-$ unzip <package.zip>
+$ cd /usr/local/BAMF-2.0/BAMF
 ```
-Run the image with the following naming convention (where x=release; y=build):
+Build the base image
 ```
-$ docker build -t <bocbs-xx-yyyy> .
-```
-Run the container with the following naming convention (where x=release; y=build):
-```
-$ docker run --name <bamfx.yyyy> -d -p <external port>:<internal port> <bocbs-xx-yyyy>
+$ sh build-bocbs-02-0000.sh
 ```
 
 ![BAMF](bamf-home.PNG)
